@@ -2,10 +2,13 @@
 <html>
   <head> 
     <title> Mairin Link in Bio </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
   </head>
 
 
   <body>
+
         <!-- headshot-->
     <div class = "items">  
     <div class = "banner">
@@ -22,19 +25,19 @@
     <div class = "socials">
 
       <a href="https://github.com/mairinjerse" target="_blank" >
-        GitHub
+        <i class="fa-solid fa-bug"></i>
       </a>
 
       <a href="https://www.linkedin.com/in/mairinjerse/" target="_blank" >
-        LinkedIn
+        <i class="fa-brands fa-linkedin"></i>
       </a>
 
       <a href="https://mairinjerse.com/" target="_blank"  >
-        Postcard.io
+        <i class="fa-regular fa-user"></i>
       </a>
 
       <a href="https://www.instagram.com/mairinjerse/?hl=en" target="_blank" >
-        Instagram
+        <i class="fa-brands fa-instagram"></i>
       </a>
 
     </div> 
@@ -43,8 +46,8 @@
   <!-- link to articles  -->
 
 
-  <div class="link">
-    <img src="/Thumbnails/book.jpg" alt="laptop" class = "thumbnail">
+  <div class="link root">
+    <img src="/Thumbnails/laptop.jpg" alt="laptop" class = "thumbnail">
      <a target="_blank" href="https://mairinjerse.com/posts/what-i-read-in-2022"> What I Read in 2022</a>
   </div>
    
@@ -57,6 +60,13 @@
     <img src="/Thumbnails/nepal.jpg" alt="book" class = "thumbnail" > 
     <a target="_blank" href="https://www.intrepidtravel.com/us/nepal/epic-everest-base-camp-trek-144520?"> Travel to Nepal + Hike Everest Base Camp </a>
   </div>
+
+  <div class="link">
+    <img src="/Thumbnails/book.jpg" alt="laptop" class = "thumbnail">
+     <a target="_blank" href="https://medium.com/change-your-mind/when-in-doubt-do-the-fearless-thing-a0b642e9e273"> When in Doubt, Do the Fearless Thing /a>
+  </div>
+
+  <div class="background--custom"></div>
 </div> 
 
 <!-- adding css -->
@@ -72,7 +82,6 @@
       }
 
       .socials {
-        background-color: #ffff;
         display: flex;
         justify-content: space-around;
         flex-grow: 1;
@@ -94,9 +103,12 @@
         display: flex;
         justify-content: center;
         flex-grow: 1;
+        Font-Family: 'Roboto Condensed', Sans-Serif;
+        Font-Size: 35px;
+        Font-Family: 'Cabin', Sans-Serif;
+        Font-Size: 16px;
       }
       body {
-        background-color: #ffff;
         display: flex;
         justify-content: center;
       }
@@ -120,6 +132,13 @@
           display: flex;
           align-items: center;
           padding: 5px;
+          border-radius: 45px;
+          width: 640;
+          height: 50px;
+          Font-Family: 'Roboto Condensed', Sans-Serif;
+          Font-Size: 35px;
+          Font-Family: 'Cabin', Sans-Serif;
+          Font-Size: 16px;
       }
 
       .link a {
@@ -127,8 +146,7 @@
           text-decoration: none;
           text-align: center;
           flex-grow: 1;
-}
-
+      }
     </style>
   
   </body>
