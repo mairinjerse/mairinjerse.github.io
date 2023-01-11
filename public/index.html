@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title> Mairin Link in Bio </title>
+  </head>
+
+
+  <body>
+    <div class = "items">
+      <!-- headshot-->
+    <div>
+      <img src="/Thumbnails/mairin.jpg" alt="Mairin Jerse headshot">
+    </div>
+    
+    <div>
+      Mairin Jerse
+    </div>
+    
+    <!-- link in bio links -->
+
+    <div class = "socials">
+
+      <p class = "link">
+        <img src="/Thumbnails/laptop.jpg" alt="laptop" class = "thumbnail">
+      <a href="https://github.com/mairinjerse" target="_blank" >
+        GitHub
+      </a></p>
+
+
+      <p class = "link">
+      <img src="/Thumbnails/work.jpg" alt="work" class = "thumbnail">
+      <a href="https://www.linkedin.com/in/mairinjerse/" target="_blank" >
+        LinkedIn
+      </a></p>
+
+      <p class = "link"> <img src="/Thumbnails/book.jpg" alt="book" class = "thumbnail" >
+      <a href="https://mairinjerse.com/" target="_blank"  >
+        Personal Website
+      </a></p>
+
+      <p class = "link"> 
+      <img src="/Thumbnails/nepal.jpg" alt="nepal" class = "thumbnail">
+      <a href="https://www.instagram.com/mairinjerse/?hl=en" target="_blank" >
+        Instagram
+      </a> </p>
+  </div>
+</div>
+
+<!-- adding css -->
+    <style>
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        max-width: 640px;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+      }
+
+      .socials {
+        background-color: #ffd803;
+      
+      }
+      body {
+        background-color: #ffff;
+        display: flex;
+        justify-content: center;
+      }
+      img {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+        }
+
+      .link {
+          color: #001e1d;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+      }
+
+      .link a {
+          color: #001e1d;
+          text-decoration: none;
+          text-align: center;
+          flex-grow: 1;
+}
+
+    </style>
+  
+  </body>
+
+</html>
